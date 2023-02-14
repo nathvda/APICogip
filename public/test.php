@@ -3,7 +3,7 @@
 async function idk(){
 
       try {
-let infos = await fetch('http://localhost:8080/companies/4/edit', {
+let infos = await fetch('../companies/4/edit', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
