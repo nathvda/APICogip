@@ -1,6 +1,8 @@
 <?php
 namespace App\Routes;
 
+require __DIR__ . '../vendor/autoload.php';
+
 use Bramus\Router\Router;
 
 use App\Controllers\HomeController;
@@ -13,8 +15,6 @@ use App\Validators\CompanyValidator;
 use App\Validators\ContactValidator;
 use App\Validators\InvoiceValidator;
 use App\Validators\UserValidator;
-
-require __DIR__ . '../vendor/autoload.php';
 
 $router = new Router();
 
