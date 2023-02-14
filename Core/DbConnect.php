@@ -19,7 +19,6 @@ class DbConnect{
         $this->username = $_ENV['USERNAME'];
     }
 
-
     /**
      * return PDO object for connection to db
      */
