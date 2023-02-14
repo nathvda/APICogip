@@ -14,6 +14,7 @@ use App\Validators\ContactValidator;
 use App\Validators\InvoiceValidator;
 use App\Validators\UserValidator;
 
+require __DIR__ . '../vendor/autoload.php';
 
 $router = new Router();
 
