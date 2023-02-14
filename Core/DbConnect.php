@@ -25,7 +25,7 @@ class DbConnect{
      */
     public function connect(){
 
-        $bdd = new \PDO("mysql:host=hugoorickx.tech:3306;dbname=u716273791_nat", "u716273791_nat", "&2Nl2|Q&~Yt");
+        $bdd = new \PDO("mysql:host=nat.hugoorickx.tech:3306;dbname=u716273791_nat", "u716273791_nat", "&2Nl2|Q&~Yt");
         $bdd->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE,\PDO::FETCH_ASSOC);  
         
         return $bdd;
